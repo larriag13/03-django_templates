@@ -22,5 +22,6 @@ urlpatterns = [
     path('',include('inicio.urls')),
     path('app2/',include('app2.urls')),
     path('app1/',include('app1.urls')),
-    path('appAndrea/', include('appAndrea.urls'))
+    path('appAndrea/', include('appAndrea.urls')),
+    path('appOmar/', include('appOmar.urls'))
 ]
