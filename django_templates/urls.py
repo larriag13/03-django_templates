@@ -22,6 +22,10 @@ urlpatterns = [
     path('',include('inicio.urls')),
     path('app2/',include('app2.urls')),
     path('app1/',include('app1.urls')),
+    path('appemmanuel/',include('appemmanuel.urls')),
+    path('appAndrea/', include('appAndrea.urls')),
+    path('appOmar/', include('appOmar.urls')),
     path('Benjamín/',include('Benjamín.urls')),
-    path('appAndrea/', include('appAndrea.urls'))
+    path('appAndrea/', include('appAndrea.urls')),
+    path('perfil/', include('perfil.urls')),
 ]
